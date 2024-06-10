@@ -1,0 +1,28 @@
+{
+    "item1": {
+      "delta_price": 10,
+      "price": 150,
+      "volume": 300
+    },
+    "item2": {
+      "delta_price": -5,
+      "price": 100,
+      "volume": 500
+    },
+    "item3": {
+      "delta_price": 2,
+      "price": 200,
+      "volume": 400
+    },
+    "item4": {
+      "delta_price": -3,
+      "price": 50,
+      "volume": 250
+    },
+    "item5": {
+      "delta_price": 0,
+      "price": 120,
+      "volume": 600
+    }
+  }
+  
