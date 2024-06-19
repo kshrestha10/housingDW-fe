@@ -4,7 +4,7 @@ Clackamas Housing Data Warehouse - Front End is built on **React and Tailwind CS
 ___
 
 #### [Plugins](https://free-react-demo.tailadmin.com/)
-- [TailAdmin - Admin Dashboard Tempalte] (https://github.com/TailAdmin/tailadmin-free-tailwind-dashboard-template)
+- [TailAdmin - Admin Dashboard Tempalte] (https://github.com/TailAdmin/free-react-tailwind-admin-dashboard)
 - [React Data Table Component] (https://github.com/jbetancur/react-data-table-component)
 
 ___

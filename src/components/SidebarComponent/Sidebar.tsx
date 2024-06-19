@@ -105,6 +105,16 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               </li>
               <li>
                 <NavLink
+                  to="/contract-check-in"
+                  className={`group relative flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-white duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-3 ${
+                    pathname === '/contract-check-in' && 'bg-graydark dark:bg-meta-3'
+                  }`}
+                >
+                  Contract Check In
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to="/blank"
                   className={`group relative flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-white duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-3 ${
                     pathname === '/blank' && 'bg-graydark dark:bg-meta-3'
