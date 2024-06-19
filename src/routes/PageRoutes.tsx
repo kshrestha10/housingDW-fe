@@ -8,6 +8,7 @@ import SignUp from '../pages/Authentication/SignUp';
 import SignIn from '../pages/Authentication/SignIn';
 import FileTransfer from '../pages/Import/FileTransfer';
 import DeveloperPage from '../pages/DeveloperPage/DeveloperPage';
+import ContractCheckInPage from '../pages/ContractCheckIn/ContractCheckInPage';
 
 function PageRoutes() {
   return (
@@ -19,6 +20,15 @@ function PageRoutes() {
             <>
               <PageTitle title="Home | CHDW" />
               <OverviewPage />
+            </>
+          }
+        />
+        <Route
+          path="/contract-check-in"
+          element={
+            <>
+              <PageTitle title="Contract Check In | CHDW" />
+              <ContractCheckInPage />
             </>
           }
         />
